@@ -8,17 +8,12 @@
 
 <script lang="ts">
 import Vue from 'vue'
-import TodoList from '@/components/TodoList.vue'
+import TodoList from '@/components/Todo.vue'
 
 export default Vue.extend({
   name: 'App',
-
   components: {
     TodoList,
-  },
-
-  data: () => ({
-    //
-  }),
+  }
 })
 </script>
